@@ -1,0 +1,19 @@
+{
+  "name": "secure-lab",
+  "version": "1.0.0",
+  "description": "This is a project which will encrypt and decrypt a text with user will give and user also choose a technique for encryption.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "nodemon": "^3.1.11"
+  }
+}
