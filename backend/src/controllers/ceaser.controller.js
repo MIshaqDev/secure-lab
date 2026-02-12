@@ -9,7 +9,7 @@ function ceaserEncryption(req, res) {
     res.status(200).json({ encoded });
 }
 
-function ceaserDecryption(req, res){
+function ceaserDecryption(req, res) {
     const { text, key } = req.body;
     if (typeof text !== 'string' || typeof key !== 'number') {
         return res.status(400).json({ error: 'Invalid input' });

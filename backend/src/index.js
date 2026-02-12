@@ -15,6 +15,6 @@ app.use('/ceaser', CeaserRouter);
 app.use('/mono', MonoRouter);
 app.use('/vigener', VigenerRouter);
 app.use('/rowTrans', RTRouter);
-app.listen(3000, ()=> {
+app.listen(3000, () => {
     console.log('Server is running on port 3000');
 })
